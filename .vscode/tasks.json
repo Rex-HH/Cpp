@@ -17,10 +17,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "group": "build",
             "detail": "调试器生成的任务。"
         },
         {
@@ -40,10 +37,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "group": "build",
             "detail": "编译器: D:/w64devkit-1.18.0/w64devkit/bin/g++.exe"
         },
         {
@@ -65,6 +59,29 @@
             ],
             "group": "build",
             "detail": "编译器: D:/w64devkit-1.18.0/w64devkit/bin/g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: cpp.exe 生成活动文件",
+            "command": "D:\\w64devkit-1.18.0\\w64devkit\\bin\\cpp.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
         }
     ],
     "version": "2.0.0"
