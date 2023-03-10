@@ -1,5 +1,5 @@
 {
-    "debug.console.closeOnEnd": true,
+    "debug.console.closeOnEnd": false,
     "files.associations": {
         "iostream": "cpp"
     }
