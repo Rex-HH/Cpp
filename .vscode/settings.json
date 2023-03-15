@@ -1,6 +1,7 @@
 {
     "debug.console.closeOnEnd": false,
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "typeinfo": "cpp"
     }
 }
