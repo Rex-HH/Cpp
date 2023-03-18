@@ -16,6 +16,7 @@ int main()
         cout << *it << " ";
     }
     cout << endl;
+
     cout << (scores[1] + scores[2] + scores[3]) / 3 << endl;
     return 0;
 }
